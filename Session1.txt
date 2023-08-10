@@ -1,0 +1,56 @@
+Çæá ÕİÍÉ æíÈ ßÇäÊ ÚÈÇÑÉ Úä ÔæíÉ ÊíßÓÊ æáíäßÇÊ Çæá ãÊÕİÍ  íÏÚã ÇáÕæÑ åæ ãæÒíß  ÌÇÊ ÔÑßÉ ÇÓãåÇ äíÊ ÓßíÈ ÇÔÊÑÊ  ãæÒíß æßÇäÊ åí ßãÇä ÈÊÚã ÇáÕæÑ
+æÑæŞÊ Úáí ÇáÊßÓÊ ÚãáÊ ÔæíÉ ÊÇÌÇÊ Òí ÇáÎØ ÇáãÇÆá ÈÊÇÌ ÇáÇí æÈÏÇÊ ÚÇíÒ É ÊÚãá ÊİÇÚá Èíä 
+ÇáãÓÊÎÏã æáæíÈ ÓÇíÊ  ØáÈÊ ãä ãÈÑãÌ ãÚÇå íÎÊÑÚ áåÇ áÛÉ ÈÑãÌÉ ÇÓãå ÈíÑäÇÑÏ Çßíß 
+Úãá áåã áÛÉ ÈÑãÌÉ İí 10 ÇíÇã ÇÓãåÇ áÇíİ ÓßÑíÈÊ ãÊÇÍÎÏå 
+ãä ËáÇÊ áÛÇÊ 
+java => syntax
+scheme => functional programming languge
+self   => oop
+ecmascript = javescript 
+ÙåÑ ãäåÇ ÇÕÏÇÑÇÊ es1 to es7  Çåã ÇÕÏÇÑ es6 
+áíå ÈÓÊÎÏã ÇáÌÇİÇ ÓßÑíÈÊ 
+api  ÇáÏÇÊÇ Çááí ÈíÚãáåÇ ÇáÈÇß äÏ 
+dom  ÈÊÍßã İí ÚäÇÕÑ html  ÇÚÏá İí ÇáÇÓÊÇÏíá 
+event  
+validation ÚáÔÇä ÇÎáí ÇáíæÒÑ íÏÎá ÇáÏÇÊÇ ÈÔßá ãÚíä 
+localstorage  ßá ãÊÕİÍ İíå ÏÇÊÇÈíÒ ÕÛíÑÉ ÈÊÍßã İíåÇ ÈÇáÌÇİÇÓßÑíÈÊ
+javascript is 
+ÚäÏ ÊÓãíÉ ÇÓã variables  ãíäİÚÔ íÈÏÇ ÈÑŞã æáÇ Çí ÚáÇãå ãÇ ÚÏÇ _ $ 
+ãíäİÚÔ íßæä ÈÇÓã ßáãÉ ãä ÇáßáãÇÊ ÇáãÍÌæÒÉ ááÛÉ reserved words
+ÇİÖá ØÑíŞÉ áßÊÇÈÉ ÇÓã ÇáãÊÛíÑ camelCase
+ //declration ÈÚáä Úäå   assign áãÇ ÈÍØ ŞíãÉ Ìæå ÇáãÊÛíÑ 
+ÇáÇİÖá Çä ÇÓã ÇáãÊÛíÑ íßæä ÈíÚÈÑ Úä ÇáÏÇÊÇ Çááí ÌæÇå 
+
+
+ÊáÇÊ ÇãÇßä ÈäßÊÈ İíåã ßæÏ ÇáÌÇİÇ ÓßÑíÈÊ 
+Çæá ãßÇä inline 
+<body>
+<button onclick="window.alert('tihs is inline')"></button>
+</body>	
+ÊÇäí ãßÇä 
+<head>
+ <script>
+      window.alert("tihs is internal")
+    </script>
+</head>
+ËÇáÊ ãßÇä İí ãáİ ÎÇÑÌí æíÊã ÑÈØå ÇİÖá ãßÇä áå ŞÈá ŞÇİáå Çábody
+ ÇÒí ÇØÈÚ ÑÓÇáÉ ááãÓÊÎÏã
+window.alert("tihs is external");
+onsol.log("hello");
+document.getElementById('item').innerHTML = "Hello World";
+ ÇäæÇÚ ÇáãÊÛíÑÇÊ İí ÇáÌÇİÇ ÇÓßÑíÈÊ 
+//primitive  string boolean number null undefind 
+// non-primitve 
+var userName = "mahmoud" ;
+var age = 29;
+var isold = true ;
+var x = null;
+console.log(typeof(userName)); //string
+console.log(typeof(age)); // number
+console.log(typeof(isold)); //boolean
+console.log(typeof(x));//obgect
+ javascript is loosly data types ÈÊÚÑİ äæÚ ÇáÈíÇäÇÊ ÈäÇÁÇ Úáí ÇáŞíã Çááí ÈäÍØåÇ 
+strongly data types  áÇä áÇÒã ÊÍÏÏ äæÚ ÇáÈíÇäÇÊ 
+áæ ÚÑİÊ ãÊÛíÑ æãİíÔ ŞíãÉ åíßæä undefind
+null ãÔ ãæÌæÏ ÇÕáÇ 
+äæÚ Çá null = object  bug in javascript;
